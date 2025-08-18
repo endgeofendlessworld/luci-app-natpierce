@@ -24,8 +24,6 @@ define Package/luci-app-natpierce/install
 	$(INSTALL_DIR) $(1)/usr/lib/lua/luci/
 	$(CP) ./luasrc/* $(1)/usr/lib/lua/luci/
 
-	$(INSTALL_DIR) $(1)/www/
-	$(CP) ./htdocs/* $(1)/www/
 
 endef
 
